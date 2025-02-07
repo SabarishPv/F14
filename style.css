@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffebee; /* Light pink background */
+    color: #c62828; /* Dark red text */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #c62828; /* Dark red */
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+}
+
+.heart-image {
+    width: 80px; /* Adjust size as needed */
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#question-box {
+    background-color: #ffcdd2; /* Light pink */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#question-text {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#generate-btn {
+    background-color: #c62828; /* Dark red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#generate-btn:hover {
+    background-color: #b71c1c; /* Slightly darker red */
+}
+
+footer {
+    background-color: #c62828; /* Dark red */
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .heart-image {
+        width: 60px;
+    }
+
+    #question-text {
+        font-size: 1.2rem;
+    }
+
+    #generate-btn {
+        font-size: 1rem;
+    }
+}
